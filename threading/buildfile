@@ -1,0 +1,8 @@
+libs =
+#import libs += libhello%lib{hello}
+
+exe{threading}: {hxx ixx txx cxx}{**} $libs testscript
+
+cc.poptions =+ "-I$out_root" "-I$src_root" -pthread
+cc.loptions =+ -pthread
+

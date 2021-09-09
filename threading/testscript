@@ -1,0 +1,24 @@
+# : basics
+# :
+# $* 'World' >'Hello, World!'
+
+# : missing-name
+# :
+# $* 2>>EOE != 0
+# error: missing name
+# EOE
+
+: basics
+$* >>~/EOO/ 2>>~/EOE/
+/\d+/
+EOO
+/\d+/
+EOE
+
+: basics verbose
+$* -v >>~/EOO/ 2>>~/EOE/
+/[+\#]+/
+/\d+/
+EOO
+/\d+/
+EOE

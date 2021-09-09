@@ -1,0 +1,3 @@
+config.cxx = clang++
+config.c = clang
+-- '?sys:libboost-python/*'

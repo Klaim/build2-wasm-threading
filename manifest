@@ -1,0 +1,13 @@
+: 1
+name: threading
+version: 0.1.0-a.0.z
+summary: threading C++ executable
+license: other: proprietary ; Not free/open source.
+description-file: README.md
+url: https://example.org/threading
+email: joel@jellynote.com
+#build-error-email: joel@jellynote.com
+builds: host : &default
+depends: * build2 >= 0.13.0
+depends: * bpkg >= 0.13.0
+#depends: libhello ^1.0.0

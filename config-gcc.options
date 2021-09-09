@@ -1,0 +1,2 @@
+config.cxx = g++
+config.c = gcc
