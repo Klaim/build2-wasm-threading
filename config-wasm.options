@@ -4,7 +4,7 @@ config.c = emcc
 config.cxx.std=20
 
 config.cc.poptions = -pthread -DBOOST_HAS_PTHREADS
-config.cc.loptions = -pthread -s PTHREAD_POOL_SIZE_STRICT=0 -s PROXY_TO_PTHREAD -s EXIT_RUNTIME=1 -s ALLOW_MEMORY_GROWTH=1
+config.cc.loptions = -pthread -s PTHREAD_POOL_SIZE_STRICT=0 -s PROXY_TO_PTHREAD -s EXIT_RUNTIME=1 -s ALLOW_MEMORY_GROWTH=1 -s ASSERTIONS=0
 
 
 config.test.runner = node --experimental-wasm-threads
