@@ -15,10 +15,10 @@ EOO
 /\d+/
 EOE
 
-: basics verbose
-$* -v >>~/EOO/ 2>>~/EOE/
-/[+\#]+/
-/\d+/
-EOO
-/\d+/
-EOE
+# : basics verbose
+# $* -v >>~/EOO/ 2>>~/EOE/
+# /[+\#]+/
+# /\d+/
+# EOO
+# /\d+/
+# EOE
