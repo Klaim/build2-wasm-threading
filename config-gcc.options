@@ -1,2 +1,4 @@
 config.cxx = g++
 config.c = gcc
+
+config.cxx.std=20

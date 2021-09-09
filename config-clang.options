@@ -1,3 +1,5 @@
 config.cxx = clang++
 config.c = clang
 
+
+config.cxx.std=20
