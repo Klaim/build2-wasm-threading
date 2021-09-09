@@ -3,3 +3,4 @@ threading
 # Testscript output directory (can be symlink).
 #
 test-threading
+threading.*
